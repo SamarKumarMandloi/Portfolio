@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #333;
+            color: white;
+        }
+        
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #ddd;
+        }
+        
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        
+        .skill-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .skill-card img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+        
+        .skill-card h2 {
+            font-size: 24px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+        
+        .skill-card p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        </style>
+    </head>
+<body>
+    <header>
+        <h1>Skills</h1>
+        <p>I have developed expertise in a variety of programming languages and frameworks.</p>
+    </header>
+
+    <section class="skills-container">
+        <div class="skill-card">
+            <img src="./logo/html logo.png" alt="HTML Logo">
+            <h2>HTML</h2>
+            <p>I am proficient in HTML, the foundation of web development, and can create well-structured web pages.</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="./logo/css logo.png" alt="CSS Logo">
+            <h2>CSS</h2>
+            <p>With CSS, I can style web pages to be visually appealing and responsive, enhancing user experience.</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="./logo/javascript logo.png" alt="JavaScript Logo">
+            <h2>JavaScript</h2>
+            <p>I have extensive experience in JavaScript, enabling me to create dynamic and interactive web pages.</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="./logo/c logo.png" alt="C Logo">
+            <h2>C</h2>
+            <p>Skilled in C programming, I have a strong understanding of low-level programming concepts and problem-solving.</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="./logo/c++ logo.png" alt="C++ Logo">
+            <h2>C++</h2>
+            <p>With a deep knowledge of C++, I can build efficient and scalable software applications.</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="./logo/java logo.png" alt="Java Logo">
+            <h2>Java</h2>
+            <p>I have experience in Java, developing robust and secure backend systems.</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="./logo/bootstrap logo.png" alt="Bootstrap Logo">
+            <h2>Bootstrap</h2>
+            <p>With Bootstrap, I can build responsive, mobile-first websites quickly using its built-in components and grid system.</p>
+        </div>
+    </section>
+</body>
+</html>
